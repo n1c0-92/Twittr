@@ -1,0 +1,40 @@
+doctype html
+html.index
+  head
+    title Twitr!
+    meta(charset='utf-8')
+    link(rel='stylesheet', href='css/materialize.css')
+    script(src='http://code.jquery.com/jquery-1.11.3.min.js')
+    script(src='js/index.js')
+    script(src='js/materialize.js')
+    link(rel='stylesheet', href='css/styles.css')
+    link(rel='stylesheet', href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css')
+    link(rel='shortcut icon', type='image/png', href='img/logo.png')
+  nav
+    .nav-wrapper.light-blue.barra
+      a.brand-logo.tit(href='#')
+        h4 Twittr!
+      ul#nav-mobile.right.hide-on-med-and-down
+        li
+          a(href='/user')
+            #demo
+        li
+          a(href='/user')
+            #demo-two
+  body
+    header.card-panel.light-blue.barra
+      #demo
+      .tit
+        h4 Twittr!
+    // sector izquierdo
+    aside.light-blue
+      .input-field.shades-text
+        textarea.materialize-textarea.tweet_content(id='textarea1 tweetContent')
+        label(for='textarea1') ingrese su tweet aquí
+        a#tweet.waves-effect.teal.accent-2.btn.btn-z Mandar Tweet
+    #contenedor
+      .centre.card
+        .card-content
+          User: felix 
+          br
+          Miguel dice algo en menos de 140 caracteres.

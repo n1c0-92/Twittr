@@ -1,0 +1,86 @@
+.index{ 
+  box-sizing: border-box;
+  body {
+  height: 100%;
+  margin: 0px;
+  }
+  header {
+    position: fixed;
+    width:100%; 
+  }
+  .barra{
+      z-index:20;
+      .tit{
+        margin: 0 auto;
+        color: #fff;
+        font-family: roboto;
+        padding-left: 5%;
+      }
+    }
+  body{
+    aside {
+        height: 100%;
+        margin: 0px;
+        position: fixed;
+        text-align: center;
+        width: 250px;
+        z-index:20;
+    }
+    #titulo {
+        color: #ffffff;
+        margin: auto;
+        width: 50%;
+    }
+    #contenedor {
+        margin-left: 250px;
+        margin-top: 47px;
+    }
+    .esp-inp{
+      padding-left: 30px;
+      padding-right: 30px
+    }
+    div.centre{
+      border-radius: 5px;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 400px; 
+    }
+    .in-centre{
+      border-radius: 5px;
+    }
+    header span {
+      display: inline-block;
+      vertical-align: middle;
+    }
+    .centre div {
+      padding: 15px;
+    }
+    header input {
+        float:left;
+    }
+    .tweet_content{
+      margin: 20px 10px;
+      width: 78%;
+      border-radius: 3px;
+      padding: 0px 10px;
+      background-color: #fff;
+    }
+    .card{
+      z-index:2;
+      position: relative;
+    }
+    .contenedor{
+      float: right;
+    }
+    .esp-ico{
+      padding-right: 3px;
+    }
+    .btn-z{
+        position: absolute;
+      top: 150px;
+      left: 30px;
+    }
+  }
+}
+
